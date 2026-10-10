@@ -73,7 +73,7 @@ function App() {
       // =====================================================
 
       const res = await fetch(
-        "http://localhost:8080/api/rag/chat",
+        "http://localhost:8081/api/rag/chat",
         {
           method: "POST",
 
@@ -174,7 +174,7 @@ function App() {
       // =====================================================
 
       const res = await fetch(
-        "http://localhost:8080/api/rag/upload",
+        "http://localhost:8081/api/rag/upload",
         {
           method: "POST",
           body: formData
